@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {
- articleOne: {
+ 'article-one': {
     title: 'Ananthan Unni A-Article One',
     heading : 'Article One',
     date: 'Sep 6, 2016',
@@ -22,7 +22,7 @@ var articles = {
         </p>`
     
 },
-articleTwo: {
+'article-two': {
     title: 'Ananthan Unni A-Article Two',
     heading : 'Article Two',
     date: 'Sep 6, 2016',
@@ -37,7 +37,7 @@ articleTwo: {
             The Article One is about IMAD console for developing a web-app using HTML and JavaScript.
         </p>`
 },
-articleThree: {
+'article-three': {
     title: 'Ananthan Unni A-Article One',
     heading : 'Article One',
     date: 'Sep 6, 2016',
