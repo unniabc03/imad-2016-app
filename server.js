@@ -39,7 +39,7 @@ var articles = {
 },
 'article-three': {
     title: 'Ananthan Unni A-Article One',
-    heading : 'Article One',
+    heading : 'Article Three',
     date: 'Sep 6, 2016',
     content: `
      <p>
